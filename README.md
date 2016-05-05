@@ -8,7 +8,7 @@ Node-RED will start with a blank canvas and will save the flow file to flows.jso
 ```
 mkdir MyNiceProject
 cd MyNiceProject
-git clone https://github.com/natcl/node-red-project-template.git .
+git clone https://github.com/dceejay/node-red-project-starter.git .
 npm install
 npm start
 ```
