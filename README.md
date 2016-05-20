@@ -28,3 +28,7 @@ npm start -- -f
 ## Dependencies
 
 You can easily add third party nodes by modifying the package.json file.  For this template we added the node-red-contrib-ui package.
+
+## See also
+ - **Electron Starter Project** - https://github.com/dceejay/electron-node-red
+ - **Bluemix Starter Project** - https://github.com/dceejay/node-red-bluemix-starter
