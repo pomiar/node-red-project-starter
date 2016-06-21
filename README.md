@@ -11,6 +11,7 @@ cd MyNiceProject
 git clone https://github.com/dceejay/node-red-project-starter.git .
 npm install
 npm start
+
 ```
 
 When running multiple instances in parallel, you can specify a port:
