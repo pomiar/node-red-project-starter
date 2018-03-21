@@ -31,4 +31,4 @@ For more information look at the Dockerfile itself.
 
 ## Dependencies
 
-You can easily add third party nodes by modifying the package.json file.  For this example template we added the node-red-dashboard and node-red-contrib-web-worldmap packages.
+You can easily add third party nodes by modifying the package.json file.  For this example template we added the `node-red-dashboard` and `node-red-contrib-web-worldmap` packages.
