@@ -5,26 +5,30 @@ Node-RED will start with a blank canvas and will save the flow file to flows.jso
 
 ## Usage
 
-```
-mkdir MyNiceProject
-cd MyNiceProject
-git clone https://github.com/natcl/node-red-project-template.git .
-npm install
-npm start
-```
+    mkdir MyNiceProject
+    cd MyNiceProject
+    git clone https://github.com/dceejay/node-red-project-template.git .
+    npm install
+    npm start
+
 
 When running multiple instances in parallel, you can specify a port:
 
-```
-npm start 1885
-```
+    npm start 1885
 
 To force an npm install (if you modified the package.json to add dependencies for example) you can use the -f switch:
 
-```
-npm start -- -f
-```
+    npm start -- -f
+
+
+## Docker
+
+There is also a Dockerfile that can be used to create a docker image of your project by running
+
+    docker build -t node-red .
+
+For more information look at the Dockerfile itself.
 
 ## Dependencies
 
-You can easily add third party nodes by modifying the package.json file.  For this template we added the node-red-contrib-ui package.
+You can easily add third party nodes by modifying the package.json file.  For this example template we added the node-red-dashboard and node-red-contrib-web-worldmap packages.
