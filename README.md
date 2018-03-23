@@ -25,7 +25,7 @@ To force an npm install (if you modified the package.json to add dependencies fo
 
 There is also a Dockerfile that can be used to create a docker image of your project by running
 
-    docker build -t node-red .
+    docker build -t node-red-project .
 
 and then use this to run it (assumes you want port 1880 mapped direct, and see the terminal output)
 
