@@ -27,6 +27,10 @@ There is also a Dockerfile that can be used to create a docker image of your pro
 
     docker build -t node-red .
 
+and then use this to run it (assumes you want port 1880 mapped direct, and see the terminal output)
+
+    docker run -it -p 1880:1880 --name mynodered node-red-project
+
 For more information look at the Dockerfile itself.
 
 ## Dependencies
