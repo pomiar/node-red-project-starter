@@ -20,7 +20,6 @@ To force an npm install (if you modified the package.json to add dependencies fo
 
     npm start -- -f
 
-
 ## Docker
 
 There is also a Dockerfile that can be used to create a docker image of your project by running
