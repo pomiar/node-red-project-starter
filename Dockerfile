@@ -1,14 +1,14 @@
 # Simple Dockerfile that you can build in the node-red directory
-
 FROM node:8-onbuild
 VOLUME /root/.node-red
 EXPOSE 1880
 
 # Use this to build the image from within the node-red directory
-#  docker build -t node-red-project .
+#       docker build -t node-red-project .
 
 # and use this to run it (assumes you want port 1880 mapped direct)
-#  docker run -it -p 1880:1880 --name mynodered node-red-project
+#       docker run -it  -p 1880:1880 -e NODE_RED_CREDENTIAL_SECRET="my secret key"--name mynodered node-red-project
+# use -d instead of -it to run as a daemon
 
 # Use   docker stop mynodered
 # and   docker start mynodered

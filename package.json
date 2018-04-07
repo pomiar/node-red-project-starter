@@ -1,6 +1,6 @@
 {
     "name"         : "node-red-project-template",
-    "version"      : "0.0.6",
+    "version"      : "0.0.7",
     "description"  : "Example Node-RED project template",
     "license"      : "Apache-2.0",
     "dependencies": {
