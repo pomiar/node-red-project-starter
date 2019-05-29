@@ -36,7 +36,8 @@ node_modules
 .DS_Store
 
 # Node-RED
-.config.json
+.config.json 
+.config.json.backup
 .sessions.json
 .flow.json.backup
 .flow_cred.json.backup

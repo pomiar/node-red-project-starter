@@ -1,17 +1,20 @@
 {
-    "name"         : "node-red-project-template",
-    "version"      : "0.0.7",
-    "description"  : "Example Node-RED project template",
-    "license"      : "Apache-2.0",
+    "name": "node-red-project-template",
+    "version": "0.0.8",
+    "description": "Example Node-RED project template",
+    "license": "Apache-2.0",
     "dependencies": {
         "node-red": "*",
         "node-red-dashboard": "*",
-        "node-red-contrib-web-worldmap": "*"
+        "node-red-contrib-web-worldmap": "*",
+        "open": "*"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/dceejay/node-red-project-template.git"
+        "type": "git",
+        "url": "https://github.com/dceejay/node-red-project-template.git"
     },
-    "keywords": [ "node-red-project" ],
+    "keywords": [
+        "node-red-project"
+    ],
     "bin": "server.js"
 }
