@@ -7,7 +7,7 @@
         "node-red": "*",
         "node-red-contrib-uibuilder": "*",
         "nodbus-plus": "*",
-        "serialport": "*"
+        "serialport": "*",
         "open": "*"
     },
     "repository": {
