@@ -5,13 +5,14 @@
     "license": "Apache-2.0",
     "dependencies": {
         "node-red": "*",
-        "node-red-dashboard": "*",
-        "node-red-contrib-web-worldmap": "*",
+        "node-red-contrib-uibuilder": "*",
+        "nodbus-plus": "*",
+        "serialport": "*"
         "open": "*"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/dceejay/node-red-project-template.git"
+        "url": "https://github.com/pomiar/node-red-project-template.git"
     },
     "keywords": [
         "node-red-project"
